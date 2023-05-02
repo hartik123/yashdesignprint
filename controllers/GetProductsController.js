@@ -17,6 +17,7 @@ const GetProductsController = async (req, res)=>{
             output: 1,
             status: "Got Product",
             description: "Got Product",
+            products: result
         })
     }
     
