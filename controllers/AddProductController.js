@@ -11,7 +11,7 @@ const AddProductController = async (req, res) =>{
             productId: req.body.productId,
             productName: req.body.productName,
             productDescription: req.body.productDescription,
-            strikepriceFor4MM: req.body.strikepriceFor4MM,
+            strikePriceFor4MM: req.body.strikePriceFor4MM,
             strikePriceFor5MM: req.body.strikePriceFor5MM,
             strikePriceFor8MM: req.body.strikePriceFor8MM,
             priceFor4MM: req.body.priceFor4MM,
