@@ -13,7 +13,7 @@ const productInfoSchema = mongoose.Schema({
   productDescription: {
     type: String,
   },
-  strikePriceFor3MM: {
+  strikepriceFor4MM: {
     type: String,
   },
   strikePriceFor5MM: {
@@ -22,7 +22,7 @@ const productInfoSchema = mongoose.Schema({
   strikePriceFor8MM: {
     type: String,
   },
-  priceFor3MM: {
+  priceFor4MM: {
     type: String,
   },
   priceFor5MM: {

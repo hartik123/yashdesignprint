@@ -13,10 +13,10 @@ const AddProductController = async (req, res) =>{
             productId: req.body.productId,
             productName: req.body.productName,
             productDescription: req.body.productDescription,
-            strikePriceFor3MM: req.body.strikePriceFor3MM,
+            strikepriceFor4MM: req.body.strikepriceFor4MM,
             strikePriceFor5MM: req.body.strikePriceFor5MM,
             strikePriceFor8MM: req.body.strikePriceFor8MM,
-            priceFor3MM: req.body.priceFor3MM,
+            priceFor4MM: req.body.priceFor4MM,
             priceFor5MM: req.body.priceFor5MM,
             priceFor8MM: req.body.priceFor8MM,
         })
