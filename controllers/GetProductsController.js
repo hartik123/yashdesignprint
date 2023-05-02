@@ -8,7 +8,8 @@ const GetProductsController = async (req, res)=>{
         res.send({
             output: 0,
             status: "No Product",
-            description: "No Product"
+            description: "No Product",
+            products: result
         })
     }
     else{
@@ -16,7 +17,6 @@ const GetProductsController = async (req, res)=>{
             output: 1,
             status: "Got Product",
             description: "Got Product",
-            products: result
         })
     }
     
