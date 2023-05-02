@@ -1,8 +1,6 @@
 import productModel from '../models/productModel.js';
 
 const AddProductController = async (req, res) =>{
-    console.log(req.file)
-    console.log(req.body)
 
     const result = await productModel.find({productId: req.body.productId});
 
